@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  car_sales:
+  Car_sales:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,5 +23,5 @@ jobs:
         pip install pandas numpy matplotlib
 
     - name: Run analysis
-      run: python car_sales.py
+      run: python Car sales.py
 
